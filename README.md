@@ -21,7 +21,7 @@ zoobab@sabayonx86-64 /home/zoobab/soft/toggledtr [57]$
 
 # Photos
 
-
+![Blinking a big LED with a CP2102 usb-serial converter with its DTR pin](https://raw.githubusercontent.com/zoobab/toggledtr/master/usb-serial-toggle-dtr-pin.jpg)
 
 # Credits
 
