@@ -23,14 +23,12 @@ void main(void)
         while(1) {
 		    ioctl(fd,TIOCMBIS,&DTR_flag);
 		    printf("DTR = 1\n");
-		    getchar();
 
-            printf("Sleeping for 2 secs\n");
+            printf("Sleeping for 1 sec\n");
             sleep(2);
 
 		    ioctl(fd,TIOCMBIC,&DTR_flag);
 		    printf("DTR = 0\n");
-		    getchar();
         }
     }
 }
