@@ -37,6 +37,8 @@ Note the CTRL-C at the end to quit the program loop.
 
 ![Blinking a big LED with a CP2102 usb-serial converter with its DTR pin](https://raw.githubusercontent.com/zoobab/toggledtr/master/usb-serial-toggle-dtr-pin.jpg)
 
+The Minus sign of your batteries (-) is connected to GND, and the Plus sign of the batteries (+) is connected to the DTR pin. When the DTR pin is HIGH, there is current on the lamp, when DTR pin is LOW, there is no current flowing.
+
 # About
 
 The CP2102 adaptor has the DTR pin exposed on the last pin of its header, NoSolderingRequired(tm):
