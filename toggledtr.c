@@ -23,11 +23,12 @@ void main(void)
 		    printf("DTR = 1\n");
 		    ioctl(fd,TIOCMBIS,&DTR_flag);
 
-/*            printf("Sleep 1s\n"); */
             sleep(1);
 
 		    printf("DTR = 0\n");
 		    ioctl(fd,TIOCMBIC,&DTR_flag);
+
+            sleep(1);
         }
     }
 }
