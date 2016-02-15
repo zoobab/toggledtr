@@ -4,6 +4,9 @@ This code toggles the DTR pin of a Linux serial port (such as /dev/ttyUSB0).
 
 It blinks a cheap LED lamp usually powered by 3xAAA 1.5V batteries, so it could be powered over USB 5V.
 
+![ON: Blink a big LED with a CP2102 usb-serial converter with its DTR pin](https://raw.githubusercontent.com/zoobab/toggledtr/master/usb-serial-blink-lamp-on_500x.jpg)
+![OFF: Blink a big LED lamp with a CP2102 usb-serial converter with its DTR pin](https://raw.githubusercontent.com/zoobab/toggledtr/master/usb-serial-blink-lamp-off_500x.jpg)
+
 # Compile
 
 ```
