@@ -42,3 +42,4 @@ removed everything else (like toggling other pins such as DTS, etc...).
 
 * https://github.com/zoobab/ch340g-bitbanging
 * https://github.com/xanthium-enterprises/RTS-DTR-Pin-Control-Linux
+* http://www.linuxtv.org/mailinglists/vdr/2003/02-2003/msg00543.html

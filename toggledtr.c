@@ -16,19 +16,18 @@ void main(void)
     }
     else {
         printf("ttyUSB0 opened successfully\n");
-		printf("Controlling DTR pin\n");
 		int DTR_flag;
 		DTR_flag = TIOCM_DTR;                           /* Modem Constant for DTR pin */
 
         while(1) {
-		    ioctl(fd,TIOCMBIS,&DTR_flag);
 		    printf("DTR = 1\n");
+		    ioctl(fd,TIOCMBIS,&DTR_flag);
 
-            printf("Sleeping for 1 sec\n");
-            sleep(2);
+/*            printf("Sleep 1s\n"); */
+            sleep(1);
 
-		    ioctl(fd,TIOCMBIC,&DTR_flag);
 		    printf("DTR = 0\n");
+		    ioctl(fd,TIOCMBIC,&DTR_flag);
         }
     }
 }
