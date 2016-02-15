@@ -23,6 +23,12 @@ zoobab@sabayonx86-64 /home/zoobab/soft/toggledtr [57]$
 
 ![Blinking a big LED with a CP2102 usb-serial converter with its DTR pin](https://raw.githubusercontent.com/zoobab/toggledtr/master/usb-serial-toggle-dtr-pin.jpg)
 
+# About
+
+The CP2102 adaptor has the DTR pin exposed on the last pin of its header:
+
+![DTR pin (the last one on the header) on the CP2102 usb-serial converter](https://raw.githubusercontent.com/zoobab/toggledtr/master/cp2102-usb-serial.jpg)
+
 # Credits
 
 This is a fork of the well documented code of Xanthium:
