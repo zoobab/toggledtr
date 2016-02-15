@@ -19,4 +19,11 @@ zoobab@sabayonx86-64 /home/zoobab/soft/toggledtr [57]$
 
 ```
 
+# Credits
 
+This is a fork of the well documented code of Xanthium:
+
+https://github.com/xanthium-enterprises/RTS-DTR-Pin-Control-Linux.git
+
+However, I only needed to toggle the DTR pin of my USB-serial adaptor, so I
+removed everything else (like toggling other pins such as DTS, etc...).
