@@ -49,6 +49,11 @@ Product page is here:
 
 http://www.action.be/fr/lampe-r-tro-led-sur-tirette-div-couleurs
 
+Product picture:
+
+https://raw.githubusercontent.com/zoobab/toggledtr/master/retro-lampe-led-tirette.png
+
+![Retro LED lamp](https://raw.githubusercontent.com/zoobab/toggledtr/master/retro-lampe-led-tirette.png)
 
 # About the USB serial adaptor
 
