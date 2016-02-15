@@ -1,6 +1,8 @@
-# Toggle the DTR pin of a Linux Serial Port (such as /dev/ttyUSB0)
+# Blink a LED lamp (toggle) with the DTR pin of a Linux Serial Port (such as /dev/ttyUSB0)
 
 This code toggles the DTR pin of a Linux serial port (such as /dev/ttyUSB0).
+
+It blinks a cheap LED lamp usually powered by 3xAAA 1.5V batteries, so it could be powered over USB 5V.
 
 # Compile
 
@@ -39,7 +41,16 @@ Note the CTRL-C at the end to quit the program loop.
 
 The Minus sign of your batteries (-) is connected to GND, and the Plus sign of the batteries (+) is connected to the DTR pin. When the DTR pin is HIGH, there is current on the lamp, when DTR pin is LOW, there is no current flowing.
 
-# About
+# About the lamp
+
+The LED lamp "Lampe retro LED sur tirette" was bought for 2EUR on the 13 February 2016 at Action.be in Brussels.
+
+Product page is here:
+
+http://www.action.be/fr/lampe-r-tro-led-sur-tirette-div-couleurs
+
+
+# About the USB serial adaptor
 
 The CP2102 adaptor has the DTR pin exposed on the last pin of its header, NoSolderingRequired(tm):
 
@@ -59,3 +70,4 @@ removed everything else (like toggling other pins such as DTS, etc...).
 * https://github.com/zoobab/ch340g-bitbanging
 * https://github.com/xanthium-enterprises/RTS-DTR-Pin-Control-Linux
 * http://www.linuxtv.org/mailinglists/vdr/2003/02-2003/msg00543.html
+* http://www.action.be/fr/lampe-r-tro-led-sur-tirette-div-couleurs
