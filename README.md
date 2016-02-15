@@ -16,8 +16,22 @@ zoobab@sabayonx86-64 /home/zoobab/soft/toggledtr [57]$
 # Run
 
 ```
+zoobab@sabayonx86-64 /home/zoobab/soft/toggledtr [323]$ sudo ./toggledtr 
+ttyUSB0 opened successfully
+DTR = 1
+DTR = 0
+DTR = 1
+DTR = 0
+DTR = 1
+DTR = 0
+DTR = 1
+DTR = 0
+^C
+zoobab@sabayonx86-64 /home/zoobab/soft/toggledtr [324]$ 
 
 ```
+
+Note the CTRL-C at the end to quit the program loop.
 
 # Photos
 
@@ -25,7 +39,7 @@ zoobab@sabayonx86-64 /home/zoobab/soft/toggledtr [57]$
 
 # About
 
-The CP2102 adaptor has the DTR pin exposed on the last pin of its header:
+The CP2102 adaptor has the DTR pin exposed on the last pin of its header, NoSolderingRequired(tm):
 
 ![DTR pin (the last one on the header) on the CP2102 usb-serial converter](https://raw.githubusercontent.com/zoobab/toggledtr/master/cp2102-usb-serial.jpg)
 
