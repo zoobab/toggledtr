@@ -79,3 +79,4 @@ removed everything else (like toggling other pins such as DTS, etc...).
 * https://github.com/xanthium-enterprises/RTS-DTR-Pin-Control-Linux
 * http://www.linuxtv.org/mailinglists/vdr/2003/02-2003/msg00543.html
 * http://www.action.be/fr/lampe-r-tro-led-sur-tirette-div-couleurs
+* https://en.wikipedia.org/wiki/Data_Terminal_Ready
