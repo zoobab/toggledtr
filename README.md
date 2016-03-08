@@ -82,3 +82,4 @@ removed everything else (like toggling other pins such as DTS, etc...).
 * https://en.wikipedia.org/wiki/Data_Terminal_Ready
 * http://stackoverflow.com/questions/27673344/trouble-in-setting-dtr-rts-pins-of-serial-port-using-ioctl-call-in-linux
 * http://linux.die.net/man/1/pport
+
