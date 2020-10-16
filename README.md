@@ -1,3 +1,4 @@
+[![noswpatv3](http://zoobab.wdfiles.com/local--files/start/noupcv3.jpg)](https://ffii.org/donate-now-to-save-europe-from-software-patents-says-ffii/)
 # Blink a LED lamp (toggle) with the DTR pin of a Linux Serial Port (such as /dev/ttyUSB0)
 
 This code toggles the DTR pin of a Linux serial port (such as /dev/ttyUSB0).
